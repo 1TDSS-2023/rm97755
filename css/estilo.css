@@ -17,4 +17,26 @@ html{
     text-align: center;
     margin: 2vh 0;
     font-size: 2em;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
 }
+
+/* BREAKPOINT 590px */
+
+@media(max-width:590px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        flex-wrap: nowrap;
+        height: 10vh;
+    }
+
+    .cabecalho a{
+        padding: 2vh 0;
+        font-size: 7vw;
+    }
+}
+
+/* BREAKPOINT 590px */
