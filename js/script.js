@@ -8,12 +8,14 @@
 // //função parseInt...;
 // console.log(parseInt(nr1) + parseInt(nr2));
 
-var nome1 = "Dubas";
-// let nome2 = "Serbato";
-// const nome3 = "Julia";
+// var nome1 = "Dubas";
+// // let nome2 = "Serbato";
+// // const nome3 = "Julia";
 
-if(nome1 != "") {
-    let nome1 = "Julia";//hoisnting
-}
+// if(nome1 != "") {
+//     let nome1 = "Julia";//hoisnting
+// }
 
-console.log(nome1);
+// var nome
+
+// console.log(nome1);
