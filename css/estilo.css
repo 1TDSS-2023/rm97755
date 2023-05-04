@@ -47,7 +47,8 @@ table{
 }
 
 th,td{
-    border: solid 1px #dddddd ;
+    border: solid 1px rgb(221, 221, 221);
+    border: solid 1px #dddddd;
     padding: 8px;
 }
 
