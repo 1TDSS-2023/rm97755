@@ -46,8 +46,15 @@ btn.addEventListener("click", function(){
 
 /* <h2 class="tit-sec">Seçao de fotos</h2> */
 
-const h2Element = document.querySelector(".tit-sec");
+// const h2Element = document.querySelector(".tit-sec");
 
-console.log(h2Element);
+// console.log(h2Element);
 
-//querySelectorALL()
+// //querySelectorALL()
+
+// ] };
+
+//Declaração de array e seus metodos
+let frutas = ["banana", "maçã", "laranja", "morango", "uva", "amora", "cereja", "abacaxi"];
+//Imprimindo um array
+console.log(frutas)
