@@ -40,7 +40,7 @@ btn.addEventListener("click", function(){
     b = Math.round(Math.random() * 255);
     
     // this.setAttribute("style", "background-color:rgb("+r+","+g+","+b+");");
-    this.setAttribute("style", 'background-color:rgb(${r},${g},${b});');
+    this.setAttribute("style",`background-color:rgb(${r},${g},${b});`);
 } );
 
 
