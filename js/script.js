@@ -55,38 +55,75 @@ btn.addEventListener("click", function(){
 // ] };
 
 //Declaração de array e seus metodos
-let frutas = ["banana", "maçã", "laranja", "morango", "uva", "amora", "cereja", "abacaxi"];
-//Imprimindo um array
-console.log(frutas);
-console.log(frutas[7])
-//Verificar o tamanho do array atraves da propriedade length
-console.log(`Tamanho do array é ${frutas.length}`);
+// let frutas = ["banana", "maçã", "laranja", "morango", "uva", "amora", "cereja", "abacaxi"];
+// //Imprimindo um array
+// console.log(frutas);
+// console.log(frutas[7])
+// //Verificar o tamanho do array atraves da propriedade length
+// console.log(`Tamanho do array é ${frutas.length}`);
 
-//Inserindo um item ao final do array com o metodo push(nomeItem);
-frutas.push("pessego")
-console.log(frutas);
+// //Inserindo um item ao final do array com o metodo push(nomeItem);
+// frutas.push("pessego")
+// console.log(frutas);
 
-//Inserindo um item no inicio do array com o metodo unshift(nomeItem);
-frutas.unshift("kiwi")
-console.log(frutas);
+// //Inserindo um item no inicio do array com o metodo unshift(nomeItem);
+// frutas.unshift("kiwi")
+// console.log(frutas);
 
-//Removendo um item do array com o metodo pop();
-frutas.pop();
-console.log(frutas);
+// //Removendo um item do array com o metodo pop();
+// frutas.pop();
+// console.log(frutas);
 
-//Removendo um item do array com o metodo shift();
-frutas.shift();
-console.log(frutas);
+// //Removendo um item do array com o metodo shift();
+// frutas.shift();
+// console.log(frutas);
 
-//Localizando um item no array com o metodo indexOf(nomeItem);
-//Obs: O metodo indexOf(nomeItem); retorna o indice do item
-// let indice = frutas.indexOf("uva");
-// console.log(`Indice do item buscado ${indice}`);
-// console.log(`Elemento buscado: ${frutas[indice]}`);
+// //Localizando um item no array com o metodo indexOf(nomeItem);
+// //Obs: O metodo indexOf(nomeItem); retorna o indice do item
+// // let indice = frutas.indexOf("uva");
+// // console.log(`Indice do item buscado ${indice}`);
+// // console.log(`Elemento buscado: ${frutas[indice]}`);
 
-//Removendo um item do array com o método splice(indice do item, qtd de vezes que o item sera removio!)
-//Obs: Utilize o método indexOf(nomeItem) para descobrir o índice do item.
-let indice = frutas.indexOf("amora");
-console.log(`Elemento no indice antes da remoção: ${frutas[indice]}`)
-frutas.splice(indice,1);
-console.log(`Elemento no indice após a remoção: ${frutas[indice]}`)
+// //Removendo um item do array com o método splice(indice do item, qtd de vezes que o item sera removio!)
+// //Obs: Utilize o método indexOf(nomeItem) para descobrir o índice do item.
+// let indice = frutas.indexOf("amora");
+// console.log(`Elemento no indice antes da remoção: ${frutas[indice]}`)
+// frutas.splice(indice,1);
+// console.log(`Elemento no indice após a remoção: ${frutas[indice]}`)
+
+// //Impressão do array em tabela
+// console.table(frutas);
+
+// frutas.forEach( (fruta)=>{
+//     console.log("FRUTA DA VEZ : " + fruta);
+// } );
+
+// let nr1 = [1,2,3,4,5];
+// let nr2 = [6,7,8,9,10];
+
+// console.log(nr1);
+// console.log(nr2);
+// //Concatenando arrays em um novo array
+// let nr3 = [nr1,nr2];
+// console.log("NOVO ARRAY: " + nr3);
+// //Imprimindo o novo array com forEach
+// nr3.forEach((nr)=>{
+//     nr.forEach((n)=>{
+//         console.log("ITENS DO NOVO ARRAY: " + n)
+//     });
+// });
+
+let nr1 = [1,2,3,4,5];
+let nr2 = [6,7,8,9,10];
+
+console.log(nr1);
+console.log(nr2);
+//Concatenando arrays em um novo array COM OPERADOR SPREAD( ... );
+let nr3 = [...nr1,...nr2];
+console.log("NOVO ARRAY: " + nr3);
+//Imprimindo o novo array com forEach
+nr3.forEach((nr)=>{
+    // nr.forEach((n)=>{
+        console.log("ITENS DO NOVO ARRAY: " + nr);
+    //});
+});
