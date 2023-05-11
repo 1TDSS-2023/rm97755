@@ -139,10 +139,16 @@ btn.addEventListener("click", function(){
 // });
 
 const elements = document.querySelectorAll(".teste");
-console.log(elements);
+// console.log(elements);
 
 elements.forEach( (el)=>{
     if(el.tagName.toLowerCase == "IMG") {
         console.log(el);
     }
 });
+
+const h2Element = document.querySelector("#meu-btn");
+
+console.log(h2Element);
+
+//querySelectorAALL
